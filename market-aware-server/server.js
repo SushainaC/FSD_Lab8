@@ -29,7 +29,7 @@ app.get('/api/analyze/:item', async (req, res) => {
       url: 'https://twinword-sentiment-analysis.p.rapidapi.com/analyze/',
       headers: {
         'content-type': 'application/x-www-form-urlencoded',
-        'X-RapidAPI-Key': 'PASTE_YOUR_REAL_KEY_HERE',
+        'X-RapidAPI-Key': 'd6ff0a57b4msh0a5e9857ab0cd85p1ede63jsn1543a1688b1',
         'X-RapidAPI-Host': 'twinword-sentiment-analysis.p.rapidapi.com'
       },
       data: new URLSearchParams({
